@@ -28,7 +28,7 @@ jobs:
         run: npm test -- --json --outputFile=test-results.json || true
 
       - name: Upload Test Report (Artifact)
-        uses: actions/upload-artifact@v3  # Correct syntax here
+        uses: actions/upload-artifact@v4
         with:
           name: test-results
           path: test-results.json
