@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.home, .hobby-list, .hobby-details {
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.home {
+    text-align: center;
+}
+
+.slideshow {
+    max-width: 100%;
+    margin: auto;
+}
+
+.background-section {
+    background-size: cover;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.articles {
+    padding: 20px;
+}
+
+.articles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.articles li {
+    margin-bottom: 10px;
+}
+
+.articles a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.articles a:hover {
+    text-decoration: underline;
+}
+.slideshow {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 10px; /* Add padding around the slideshow */
+}
+
+.slider-image {
+    max-width: 100%; /* Set max width */
+    max-height: 700px; /* Set max height */
+    border-radius: 20px; /* Rounded corners */
+    object-fit: cover; /* Maintain aspect ratio */
+}
