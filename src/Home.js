@@ -51,6 +51,7 @@ const Home = () => {
             <ImageSlider />
             <div className="background-section" style={{ backgroundImage: 'url("https://example.com/background.jpg")', padding: '50px', color: 'white', textAlign: 'center' }}>
                 <h2>Discover Your Next Hobby!</h2>
+                <h3>Discover Your Next Hobby!</h3>
                 <button onClick={handleFindHobbiesClick} style={{ padding: '10px 20px', fontSize: '16px' }}>Find Hobbies</button>
             </div>
             <div className="articles">
