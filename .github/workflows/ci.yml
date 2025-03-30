@@ -22,13 +22,13 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
-        run: npm install  
+        run: npm install
 
       - name: Run Tests & Save Results
         run: npm test -- --json --outputFile=test-results.json || true
 
       - name: Upload Test Report (Artifact)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3  # Correct syntax here
         with:
           name: test-results
           path: test-results.json
