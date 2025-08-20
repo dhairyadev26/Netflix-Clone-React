@@ -4,10 +4,6 @@ A Netflix clone built with React.js, featuring user authentication, movie browsi
 
 ![Netflix Clone Demo](./images/demo.png)
 
-## 🚀 Live Demo
-
-[View Live Application](https://your-vercel-deployment-url.vercel.app)
-
 ## ✨ Features
 
 - **User Authentication**: Sign up, sign in, and sign out functionality
